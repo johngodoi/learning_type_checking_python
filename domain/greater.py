@@ -1,11 +1,11 @@
 from dataclasses import dataclass
 import typic
-from pytypes import typechecked
+from pytypes import typechecked  # type: ignore
 
 
 @dataclass
 @typic.al(strict=True, always=True)  # type: ignore
-@typechecked  # type: ignore
+@typechecked
 class Greater:
     name: str
 
