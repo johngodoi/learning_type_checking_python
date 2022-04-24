@@ -1,0 +1,6 @@
+mypy
+marshmallow
+marshmallow-dataclass
+pydantic
+pytypes
+typical
